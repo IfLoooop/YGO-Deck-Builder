@@ -1,0 +1,10 @@
+#nullable enable
+
+#NAMESPACE#
+/// <summary>
+/// 
+/// </summary>
+internal interface #SCRIPTNAME#
+{
+	
+}

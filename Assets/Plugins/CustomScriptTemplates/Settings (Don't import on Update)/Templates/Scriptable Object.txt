@@ -1,0 +1,12 @@
+#nullable enable
+using UnityEngine;
+
+#NAMESPACE#
+/// <summary>
+/// 
+/// </summary>
+[CreateAssetMenu(menuName = "YGO/#SCRIPTNAME#", fileName = "#SCRIPTNAME#")]
+internal sealed class #SCRIPTNAME# : ScriptableObject
+{
+	
+}

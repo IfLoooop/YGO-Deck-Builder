@@ -1,0 +1,11 @@
+#nullable enable
+using UnityEngine;
+
+#NAMESPACE#
+/// <summary>
+/// 
+/// </summary>
+internal sealed class #SCRIPTNAME# : MonoBehaviour
+{
+	
+}
