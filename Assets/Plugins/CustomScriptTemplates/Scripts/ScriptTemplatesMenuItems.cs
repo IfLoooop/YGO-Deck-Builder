@@ -100,5 +100,15 @@ namespace Plugins.CustomScriptTemplates.Scripts
 		{
 			ScriptTemplates.CreateTextFileWithoutTemplate("NewTextFile.txt");
 		}
+		/// <summary>
+		/// Creates a new Json File. <br/>
+		/// Outside the Region, because it doesn't need a Template .txt File, <br/>
+		/// IF YOU DON'T NEED THIS MENU ENTRY, YOU CAN JUST DELETE THIS METHOD, OTHERWISE DON'T MOVE!
+		/// </summary>
+		[MenuItem(ROOT_ITEM + "Json File", false, MENU_ITEM_PRIORITY)]
+		private static void CreateJsonFile()
+		{
+			ScriptTemplates.CreateTextFileWithoutTemplate("NewJsonFile.json");
+		}
 	}
 }
